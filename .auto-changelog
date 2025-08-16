@@ -1,0 +1,14 @@
+{
+  "output": "CHANGELOG.md",
+  "template": "keepachangelog",
+  "unreleased": true,
+  "commitLimit": false,
+  "package": true,
+  "ignoreCommitPattern": "^chore|^docs|^style|^test|^ci",
+  "breakingPattern": "BREAKING CHANGE:",
+  "issuePattern": "#[0-9]+",
+  "issueUrl": "https://github.com/Kleinnnn/dating-app-test/issues/",
+  "releaseSummary": true,
+  "tag-prefix": "v",
+  "sortCommits": "relevance"
+}
