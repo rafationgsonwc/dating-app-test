@@ -37,6 +37,7 @@ export default function Profile() {
         formDataToSend.append("birthdate", formData.birthdate);
         formDataToSend.append("profilePicture", formData.profilePictureFile);
         formDataToSend.append("userId", authUser.id);
+        formDataToSend.append("gender", formData.gender)
         Swal.showLoading();
 
         try {
