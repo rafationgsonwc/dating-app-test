@@ -9,12 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mantine/core": "^8.2.5",
+    "@mantine/hooks": "^8.2.5",
     "cloudinary": "^2.7.0",
     "firebase": "^11.9.1",
     "firebase-admin": "^13.4.0",
+    "geofire-common": "^6.0.0",
+    "geofirestore": "^5.2.0",
     "next": "15.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-range": "^1.10.0",
     "react-swipeable": "^7.0.2",
     "sass": "^1.89.2",
     "sweetalert2": "^11.22.2"
